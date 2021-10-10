@@ -46,6 +46,21 @@ body{
 .btn3:hover {
     background-color: rgb(91, 250, 112);
   }
+
+.btn4 {
+    background-color: rgb(88, 16, 16);
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 13px;
+    margin-left: 44%;
+  }
+.btn4:hover {
+    background-color: rgb(165, 85, 71);
+  }
+
 img{
     width: 100%;
 }
@@ -61,7 +76,7 @@ section h3{
 button{
     justify-self: unset;
 }
-nav>img{
+nav > img{
     width: 5%;
 }
 h1{
@@ -103,3 +118,18 @@ li{
   a {
     text-decoration: none;
   }
+
+.footer-text{
+  text-align: center;
+  justify-content: center ;
+}
+
+.social-icons i{
+  color: rgb(66, 5, 5);
+}
+
+.social-links{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
